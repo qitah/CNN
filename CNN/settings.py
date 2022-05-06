@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-ahlx*a($##0+i3)e%f!r($)zhphef+--6$8*xyg6%#!g@es$qh
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-
+CSRF_TRUSTED_ORIGINS = ['https://team-qitah-cnn-master-jfbbkvj3va-wm.a.run.app']
 
 # Application definition
 
