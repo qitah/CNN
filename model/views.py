@@ -19,12 +19,12 @@ def index(request):
         if form.is_valid(): 
             form.save()
             image1 = form.cleaned_data.get('image')
-            classes = ['مباني',
-            'غابات',
-            'أنهار جليدية',
-            'جبال',
-            'بحار',
-            'شوارع']
+            classes = ['Buildings',
+            'Forest',
+            'Glaciers',
+            'Mountains',
+            'Sea',
+            'Streets']
 
 
             model = torchvision.models.resnet18()
